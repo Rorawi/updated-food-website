@@ -551,6 +551,10 @@ header .navigation .navigation-items a:before {
 
 
 @media (max-width: 1040px) {
+    .welcome {
+        position: fixed;
+    }
+
 
     .welcome h1 {
         font-size: 30px;
@@ -570,8 +574,7 @@ header .navigation .navigation-items a:before {
         font-size: 14px;
         font-family: sans-serif;
         font-weight: 800;
-        position: absolute;
-        bottom: 20px;
+        position: static;
     }
 
     .wave-main-div {
@@ -602,6 +605,7 @@ header .navigation .navigation-items a:before {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: 100px;
     }
 
 
@@ -689,5 +693,5 @@ header .navigation .navigation-items a:before {
 }
 
 @media (max-width: 375px) {
-    
+
 }
