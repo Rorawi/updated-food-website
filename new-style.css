@@ -59,6 +59,8 @@ header .navigation .navigation-items a:before {
 
 
 
+
+
 .navbar1{
     background-color: transparent;
     border-radius: none;
@@ -69,6 +71,10 @@ header .navigation .navigation-items a:before {
 
 .navbar1 a{
       color: #2a145a;
+}
+
+.navbar-toggle {
+    background-color: #fff;
 }
 
 .body {
@@ -221,6 +227,21 @@ header .navigation .navigation-items a:before {
     margin: 0 50px 0;
 }
 
+#show {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #4effd3;
+    border: 0;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.091),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.847);
+}
+
+#show:active {
+    box-shadow: inset 6px 6px 10px -1px rgba(0, 0, 0, 0.091),
+    inset -6px -6px 10px -1px rgba(255, 255, 255, 0.847);
+}
+
 .nutrition {
     width: 150px;
     height: 150px;
@@ -255,13 +276,20 @@ header .navigation .navigation-items a:before {
 }
 
 .img2 {
-    background-image: url(./images/anto-meneghini-M218Zx_pTLw-unsplash.jpg);
+    background-image: url(./images/daniel-cabriles-uTOUS5_guHg-unsplash.jpg);
+}
+.img10 {
+    background-image: url(./images/the-fry-family-food-co-bA4AIZwauxc-unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
 }
 .img3{
-    background-image: url(./images/anto-meneghini-M218Zx_pTLw-unsplash.jpg);
+    background-image: url(./images/ovidiu-creanga-iNWjJJXeym4-unsplash\ \(1\).jpg);
 }
 .img4 {
-    background-image: url(./images/anto-meneghini-M218Zx_pTLw-unsplash.jpg);
+    background-image: url(./images/brenda-godinez-MsTOg6rhRVk-unsplash.jpg);
 }
 .img5 {
     background-image: url(./images/denis-tuksar-hsTwPUzFegQ-unsplash.jpg);
@@ -270,13 +298,44 @@ header .navigation .navigation-items a:before {
     background-image: url(./images/an-nguyen-5HNB4MqxkIM-unsplash.jpg);
 }
 .img7 {
-    background-image: url(./images/ovidiu-creanga-iNWjJJXeym4-unsplash\ \(1\).jpg);
+    background-image: url(./images/sebastian-coman-photography-rwBJaJdesGg-unsplash.jpg);
 }
 .img8 {
     background-image: url(./images/michu-dang-quang-7O9lUwmU5mA-unsplash.jpg);
+    height: 120vh;
 }
 .img9 {
     background-image: url(./images/pablo-merchan-montes-MXovqM130UI-unsplash.jpg);
+}
+
+.img2-text {
+    background-color: #EFAC13;
+}
+.img4-text {
+    background-color: #A5A761;
+}
+
+.img5-text {
+    background-color: #C08BA6;
+}
+.img6-text {
+    background-color: #E8AD28;
+}
+
+.img7-text {
+    background-color: #ff6f9a;
+}
+
+.img8-text {
+    background-color: #583052;
+}
+
+.img9-text {
+    background-color: #ff6f9a;
+}
+
+.img10-text {
+    background-color:#AC920E;
 }
 
 .diff-color {
